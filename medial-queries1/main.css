@@ -1,3 +1,50 @@
 body {
   background: blanchedalmond;
+  border: solid 2px blue;
+  margin: auto;
+  border-radius: 30px
+}
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column
+
+}
+.a{
+  background: yellow;
+  border: solid 5px;
+  text-align: center;
+  width: auto;
+  margin: 15px;
+  min-height: 15vh;
+  flex-grow: 1;
+}
+.b{
+  background: brown;
+  border: solid 5px;
+  text-align: center;
+  min-height: 60vh;
+  flex-grow: 3;
+  width: auto;
+  margin: 15px;
+}
+.c{
+  background: orange;
+  border: solid 5px;
+  text-align: center;
+  
+  width: auto;
+  margin: 15px;
+  min-height: 20vh;
+  flex-grow: 1;
+}
+@media (min-width: 700px){
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100%;
+  }
 }

@@ -1,3 +1,98 @@
 body {
   background: peachpuff;
 }
+body {
+  background: papayawhip;
+  border: solid 2px blue;
+  margin: auto;
+  border-radius: 30px
+}
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.a{
+  background: yellow;
+  border: solid 5px;
+  text-align: center;
+  min-width: 90vw;
+  margin: 5px;
+  min-height: 10vh;
+  flex-grow: 1;
+}
+.b{
+  background: rgb(32, 37, 179);
+  border: solid 5px;
+  text-align: center;
+  min-width: 30vw;
+  margin: 5px;
+  min-height: 10vh;
+  flex-grow: 1;
+}
+.c{
+  background: rgb(213, 213, 180);
+  border: solid 5px;
+  text-align: center;
+  min-width: 30vw;
+  margin: 5px;
+  min-height: 10vh;
+  flex-grow: 1;
+}
+.d{
+  background: rgb(113, 113, 87);
+  border: solid 5px;
+  text-align: center;
+  min-width: 30vw;
+  margin: 5px;
+  min-height: 10vh;
+  flex-grow: 1;
+  
+}
+.e{
+  background: rgb(32, 105, 109);
+  border: solid 5px;
+  text-align: center;
+  min-width: 30vw;
+  margin: 5px;
+  min-height: 10vh;
+  flex-grow: 1;
+}
+.f{
+  background: rgb(183, 123, 182);
+  border: solid 5px;
+  text-align: center;
+  min-width: 30vw;
+  margin: 5px;
+  min-height: 10vh;
+  flex-grow: 1;
+}
+.g{
+  background: rgb(126, 183, 123);
+  border: solid 5px;
+  text-align: center;
+  min-width: 30vw;
+  margin: 5px;
+  min-height: 10vh;
+  flex-grow: 1;
+}
+.h{
+  background: rgb(149, 139, 149);
+  border: solid 5px;
+  text-align: center;
+  min-width: 90vw;
+  margin: 5px;
+  min-height: 20vh;
+  flex-grow: 1;
+}
+@media (min-width: 700px){
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100%;
+  }
+}
