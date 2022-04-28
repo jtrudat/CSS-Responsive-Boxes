@@ -27,7 +27,7 @@ body {
   background: rgb(32, 37, 179);
   border: solid 5px;
   text-align: center;
-  min-width: 30vw;
+  min-width: 28vw;
   margin: 5px;
   min-height: 10vh;
   flex-grow: 1;
@@ -36,7 +36,7 @@ body {
   background: rgb(213, 213, 180);
   border: solid 5px;
   text-align: center;
-  min-width: 30vw;
+  min-width: 28vw;
   margin: 5px;
   min-height: 10vh;
   flex-grow: 1;
@@ -45,7 +45,7 @@ body {
   background: rgb(113, 113, 87);
   border: solid 5px;
   text-align: center;
-  min-width: 30vw;
+  min-width: 28vw;
   margin: 5px;
   min-height: 10vh;
   flex-grow: 1;
@@ -55,44 +55,92 @@ body {
   background: rgb(32, 105, 109);
   border: solid 5px;
   text-align: center;
-  min-width: 30vw;
+  width: 28vw;
   margin: 5px;
   min-height: 10vh;
-  flex-grow: 1;
+  flex-grow: .5;
 }
 .f{
   background: rgb(183, 123, 182);
   border: solid 5px;
   text-align: center;
-  min-width: 30vw;
+  width: 28vw;
   margin: 5px;
   min-height: 10vh;
-  flex-grow: 1;
+  flex-grow: .5;
 }
 .g{
   background: rgb(126, 183, 123);
   border: solid 5px;
   text-align: center;
-  min-width: 30vw;
+  width: 28vw;
   margin: 5px;
   min-height: 10vh;
-  flex-grow: 1;
+  flex-grow: .5;
 }
 .h{
   background: rgb(149, 139, 149);
   border: solid 5px;
   text-align: center;
-  min-width: 90vw;
+  min-width: 90px;
   margin: 5px;
   min-height: 20vh;
   flex-grow: 1;
 }
 @media (min-width: 700px){
   .container{
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  min-height: 100vh;
+  
   }
-  .a {
-    width: 100%;
+
+  .a{
+    order: 1;
+    width: 95vw
   }
+  .b{
+    order:2;
+    min-width: 10vw;
+    
+  }
+  .c{
+    order:3;
+    min-width: 10vw;
+    
+  }
+  .d{
+    order:4;
+    min-width: 10vw;
+    
+  }
+  .e{
+    order:6;
+    max-width: 14vw;
+    transform: scale(1, 1)
+   
+    
+  }
+
+  .f{
+    order: 7;
+    max-width: 14vw; 
+    
+       
+  }
+
+  .g{
+    order:8;
+    max-width: 14vw;
+    margin-right: 220px;
+    
+  }
+
+.h{
+  order:5;
+  min-height: 1vh;
+  min-width: 45vw;
+  position: relative;
+  transform: translate(0px, 148px) scale(1, 2.1);
+
+}
 }
